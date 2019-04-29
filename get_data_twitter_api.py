@@ -44,7 +44,7 @@ def retrieve_twitter_data(query, begin_date, end_date, window_size, yaml_file_na
 
 		# convert back to str format as required by twitter api
 		from_date = str(from_date)[:10]
-		to_date = str(end_date)[:10]
+		to_date = str(to_date)[:10]
 
 		# setting the rule
 		rule = gen_rule_payload(query,
