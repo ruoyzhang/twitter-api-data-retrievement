@@ -1,7 +1,7 @@
 from get_data_twitter_api import retrieve_twitter_data
 
 # set var values
-query = "artificial intelligence OR AI OR IA OR intelligence artificielle profile_country: BE"
+query = "artificial intelligence OR IA OR intelligence artificielle profile_country: BE"
 begin_date = "2016-04-17"
 end_date = "2019-04-17"
 window_size = 11

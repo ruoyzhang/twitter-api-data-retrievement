@@ -2,7 +2,7 @@ from get_data_twitter_api import retrieve_twitter_data
 
 # set var values
 query = "artificial intelligence OR AI OR IA OR intelligence artificielle profile_country: CH"
-begin_date = "2016-04-17"
+begin_date = "2016-11-12"
 end_date = "2019-04-17"
 window_size = 11
 yaml_file_name = "~/.twitter_keys.yaml"
